@@ -1,4 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Understanding App Router
+
+A comprehensive guide to modern web development tools and practices, built with Next.js and Tailwind CSS. This project serves as an interactive learning platform showcasing different aspects of web development.
+
+## Features
+
+- **Next.js Guide**: Detailed exploration of Next.js features and capabilities
+- **Tailwind CSS Examples**: Comprehensive showcase of Tailwind CSS styling and components
+- **Modern UI**: Responsive design with interactive cards and hover effects
+- **Custom Fonts**: Integration of Google Fonts (Instrument Serif, Roboto, and more)
+- **Icon Integration**: Using FontAwesome icons for enhanced visual experience
+
+## Technologies Used
+
+- Next.js
+- Tailwind CSS
+- FontAwesome Icons
+- Google Fonts
 
 ## Getting Started
 
@@ -22,7 +39,31 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
+
+```
+├── pages/
+│   ├── _app.js          # App configuration
+│   ├── _document.js     # Document configuration and font imports
+│   ├── index.js         # Home page with interactive cards
+│   ├── next.js          # Next.js guide page
+│   ├── tailwind.next.js # Tailwind CSS examples
+│   └── components/      # Reusable components
+│       ├── button.js    # Custom button component
+│       └── nav.js       # Navigation component
+├── public/              # Static assets
+├── styles/             
+│   └── globals.css      # Global styles and Tailwind imports
+```
+
+## Styling
+
+This project uses Tailwind CSS for styling with custom configurations:
+- Custom color schemes
+- Responsive design patterns
+- Interactive hover effects
+- Custom Google Fonts integration
+- FontAwesome icons
 
 ## Learn More
 
@@ -33,8 +74,21 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Development Status
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is actively being developed with new features being added:
+- ✅ Home page with interactive cards
+- ✅ Next.js guide section
+- ✅ Tailwind CSS examples
+- 🚧 Additional sections under development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## Contributing
+
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest new features
+- Submit pull requests
+
+## License
+
+This project is open source and available under the MIT license.
