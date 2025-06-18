@@ -1,4 +1,7 @@
+
+
 # Understanding App Router
+![2025-06-18 11-28-14](https://github.com/user-attachments/assets/2c5b069e-c1c5-422d-9c89-034c125fd286)
 
 A comprehensive guide to modern web development tools and practices, built with Next.js and Tailwind CSS. This project serves as an interactive learning platform showcasing different aspects of web development.
 
